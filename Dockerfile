@@ -5,7 +5,7 @@ RUN apt-get update \
 	&& docker-php-ext-install ldap pgsql pdo pdo_pgsql \
 	&& rm -rf /var/lib/apt/lists
 
-RUN	curl https://extdist.wmflabs.org/dist/extensions/LDAPProvider-REL1_39-740f097.tar.gz --output /tmp/ldapprovider.tar.gz \
+RUN	curl https://extdist.wmflabs.org/dist/extensions/LDAPProvider-REL1_39-594017c.tar.gz --output /tmp/ldapprovider.tar.gz \
 	&& tar --extract --file=/tmp/ldapprovider.tar.gz --directory=/var/www/html/extensions \
 	&& rm -f /tmp/ldapprovider.tar.gz
 
