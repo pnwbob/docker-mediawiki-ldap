@@ -12,7 +12,7 @@ docker run \
 	--name my-mediawiki-ldap \
 	--detach \
 	--publish 80:80 \
-	garethflowers/mediawiki-ldap
+	pnwbob/docker-mediawiki-ldap
 ```
 
 ## License
