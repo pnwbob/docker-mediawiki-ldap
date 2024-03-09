@@ -1,10 +1,10 @@
-docker_repository: garethflowers/mediawiki-ldap
-author: garethflowers
+docker_repository: pnwbob/mediawiki-ldap
+author: pnwbob
 plugins:
   - jekyll-remote-theme
   - jekyll-sitemap
-remote_theme: garethflowers/garethflowers.github.io
-tagline: Gareth Flowers
+remote_theme: pnwbob/pnwbob.github.io
+tagline: Bob Myers
 twitter:
-  username: garethflowers
+  username: portlandbobm
   card: summary
