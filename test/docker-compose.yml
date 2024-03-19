@@ -2,7 +2,7 @@ services:
   mediawiki-ldap:
     build: .
     command: php -v
-    image: garethflowers/mediawiki-ldap
+    image: pnwbob/mediawiki-ldap
 networks:
   default:
     driver: bridge
