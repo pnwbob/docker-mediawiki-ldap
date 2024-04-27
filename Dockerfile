@@ -19,3 +19,9 @@ RUN	curl https://extdist.wmflabs.org/dist/extensions/PluggableAuth-REL1_39-1884a
 	&& tar --extract --file=/tmp/PluggableAuth.tar.gz --directory=/var/www/html/extensions \
 	&& rm -f /tmp/PluggableAuth.tar.gz \
 	&& chown -R www-data:www-data /var/www/html/extensions/PluggableAuth
+
+RUN	curl https://extdist.wmflabs.org/dist/extensions/DarkMode-REL1_39-96c9f8b.tar.gz --output /tmp/DarkMode.tar.gz \
+	&& tar --extract --file=/tmp/DarkMode.tar.gz --directory=/var/www/html/extensions \
+	&& rm -f /tmp/DarkMode.tar.gz \
+	&& chown -R www-data:www-data /var/www/html/extensions/DarkMode
+
